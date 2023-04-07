@@ -5,7 +5,7 @@
 
 -click on the button to switch modes between: hirakana, katakana, mixed
 
--一个用来练习假名的小程序
+-一个用来练习假名的html小程序
 
 -对随机生成的假名序列输入对应的罗马音
 
