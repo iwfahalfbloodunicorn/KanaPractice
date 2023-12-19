@@ -2,9 +2,9 @@ const toggleBtn = document.getElementById('toggle-btn');
 var currentMode = JSON.parse(localStorage.getItem('isDarkMode')) || 'hirakana';
 modetext = "混合";
 if (currentMode === 'hiragana') {
-    modetext = "片假名";
-  } else if (currentMode === 'katakana') {
     modetext = "平假名";
+  } else if (currentMode === 'katakana') {
+    modetext = "片假名";
   } 
 toggleBtn.innerHTML = modetext;
 
